@@ -128,6 +128,30 @@ NeuroEscape/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/build
 .PHONY : NeuroEscape/fast
 
+src/Door.obj: src/Door.cpp.obj
+.PHONY : src/Door.obj
+
+# target to build an object file
+src/Door.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj
+.PHONY : src/Door.cpp.obj
+
+src/Door.i: src/Door.cpp.i
+.PHONY : src/Door.i
+
+# target to preprocess a source file
+src/Door.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Door.cpp.i
+.PHONY : src/Door.cpp.i
+
+src/Door.s: src/Door.cpp.s
+.PHONY : src/Door.s
+
+# target to generate assembly for a file
+src/Door.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Door.cpp.s
+.PHONY : src/Door.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 .PHONY : src/Game.obj
 
@@ -175,6 +199,30 @@ src/Guard.s: src/Guard.cpp.s
 src/Guard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Guard.cpp.s
 .PHONY : src/Guard.cpp.s
+
+src/Key.obj: src/Key.cpp.obj
+.PHONY : src/Key.obj
+
+# target to build an object file
+src/Key.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj
+.PHONY : src/Key.cpp.obj
+
+src/Key.i: src/Key.cpp.i
+.PHONY : src/Key.i
+
+# target to preprocess a source file
+src/Key.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Key.cpp.i
+.PHONY : src/Key.cpp.i
+
+src/Key.s: src/Key.cpp.s
+.PHONY : src/Key.s
+
+# target to generate assembly for a file
+src/Key.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Key.cpp.s
+.PHONY : src/Key.cpp.s
 
 src/Player.obj: src/Player.cpp.obj
 .PHONY : src/Player.obj
@@ -257,12 +305,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... NeuroEscape
+	@echo ... src/Door.obj
+	@echo ... src/Door.i
+	@echo ... src/Door.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
 	@echo ... src/Guard.obj
 	@echo ... src/Guard.i
 	@echo ... src/Guard.s
+	@echo ... src/Key.obj
+	@echo ... src/Key.i
+	@echo ... src/Key.s
 	@echo ... src/Player.obj
 	@echo ... src/Player.i
 	@echo ... src/Player.s

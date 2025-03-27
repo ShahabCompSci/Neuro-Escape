@@ -71,11 +71,26 @@ include CMakeFiles/NeuroEscape.dir/flags.make
 CMakeFiles/NeuroEscape.dir/codegen:
 .PHONY : CMakeFiles/NeuroEscape.dir/codegen
 
+CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.make
+CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
+CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/Door.cpp
+CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\Door.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\Door.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\Door.cpp"
+
+CMakeFiles/NeuroEscape.dir/src/Door.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuroEscape.dir/src/Door.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Personal Github Repo\Neuro-Escape\src\Door.cpp" > CMakeFiles\NeuroEscape.dir\src\Door.cpp.i
+
+CMakeFiles/NeuroEscape.dir/src/Door.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuroEscape.dir/src/Door.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Personal Github Repo\Neuro-Escape\src\Door.cpp" -o CMakeFiles\NeuroEscape.dir\src\Door.cpp.s
+
 CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.make
 CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
 CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/Game.cpp
 CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\Game.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\Game.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\Game.cpp"
 
 CMakeFiles/NeuroEscape.dir/src/Game.cpp.i: cmake_force
@@ -90,7 +105,7 @@ CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.m
 CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
 CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/Guard.cpp
 CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\Guard.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\Guard.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\Guard.cpp"
 
 CMakeFiles/NeuroEscape.dir/src/Guard.cpp.i: cmake_force
@@ -101,11 +116,26 @@ CMakeFiles/NeuroEscape.dir/src/Guard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuroEscape.dir/src/Guard.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Personal Github Repo\Neuro-Escape\src\Guard.cpp" -o CMakeFiles\NeuroEscape.dir\src\Guard.cpp.s
 
+CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.make
+CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
+CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/Key.cpp
+CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\Key.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\Key.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\Key.cpp"
+
+CMakeFiles/NeuroEscape.dir/src/Key.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuroEscape.dir/src/Key.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Personal Github Repo\Neuro-Escape\src\Key.cpp" > CMakeFiles\NeuroEscape.dir\src\Key.cpp.i
+
+CMakeFiles/NeuroEscape.dir/src/Key.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuroEscape.dir/src/Key.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Personal Github Repo\Neuro-Escape\src\Key.cpp" -o CMakeFiles\NeuroEscape.dir\src\Key.cpp.s
+
 CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.make
 CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
 CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/Player.cpp
 CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\Player.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\Player.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\Player.cpp"
 
 CMakeFiles/NeuroEscape.dir/src/Player.cpp.i: cmake_force
@@ -120,7 +150,7 @@ CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.ma
 CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
 CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/Wall.cpp
 CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\Wall.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\Wall.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\Wall.cpp"
 
 CMakeFiles/NeuroEscape.dir/src/Wall.cpp.i: cmake_force
@@ -135,7 +165,7 @@ CMakeFiles/NeuroEscape.dir/src/main.cpp.obj: CMakeFiles/NeuroEscape.dir/flags.ma
 CMakeFiles/NeuroEscape.dir/src/main.cpp.obj: CMakeFiles/NeuroEscape.dir/includes_CXX.rsp
 CMakeFiles/NeuroEscape.dir/src/main.cpp.obj: C:/Personal\ Github\ Repo/Neuro-Escape/src/main.cpp
 CMakeFiles/NeuroEscape.dir/src/main.cpp.obj: CMakeFiles/NeuroEscape.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuroEscape.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeuroEscape.dir/src/main.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuroEscape.dir/src/main.cpp.obj -MF CMakeFiles\NeuroEscape.dir\src\main.cpp.obj.d -o CMakeFiles\NeuroEscape.dir\src\main.cpp.obj -c "C:\Personal Github Repo\Neuro-Escape\src\main.cpp"
 
 CMakeFiles/NeuroEscape.dir/src/main.cpp.i: cmake_force
@@ -148,8 +178,10 @@ CMakeFiles/NeuroEscape.dir/src/main.cpp.s: cmake_force
 
 # Object files for target NeuroEscape
 NeuroEscape_OBJECTS = \
+"CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj" \
 "CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj" \
 "CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj" \
+"CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj" \
 "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj" \
 "CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj" \
 "CMakeFiles/NeuroEscape.dir/src/main.cpp.obj"
@@ -157,8 +189,10 @@ NeuroEscape_OBJECTS = \
 # External object files for target NeuroEscape
 NeuroEscape_EXTERNAL_OBJECTS =
 
+NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/Door.cpp.obj
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj
+NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/Key.cpp.obj
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/src/main.cpp.obj
@@ -168,7 +202,7 @@ NeuroEscape.exe: C:/msys64/ucrt64/lib/libSDL2.dll.a
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/linkLibs.rsp
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/objects1.rsp
 NeuroEscape.exe: CMakeFiles/NeuroEscape.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable NeuroEscape.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable NeuroEscape.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NeuroEscape.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
