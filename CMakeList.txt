@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+project(NeuroEscape)
+
+set(CMAKE_CXX_STANDARD 17)
+
+# Find SDL2
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
+
+# Add your source files
+file(GLOB SOURCES "src/*.cpp")
+
+add_executable(NeuroEscape ${SOURCES})
+target_include_directories(NeuroEscape PRIVATE include)
+target_link_libraries(NeuroEscape ${SDL2_LIBRARIES})
