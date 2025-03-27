@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj"
   "CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj.d"
+  "CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj"
+  "CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj.d"
   "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj"
   "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj.d"
   "CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj"

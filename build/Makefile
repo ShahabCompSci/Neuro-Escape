@@ -152,6 +152,30 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/Guard.obj: src/Guard.cpp.obj
+.PHONY : src/Guard.obj
+
+# target to build an object file
+src/Guard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Guard.cpp.obj
+.PHONY : src/Guard.cpp.obj
+
+src/Guard.i: src/Guard.cpp.i
+.PHONY : src/Guard.i
+
+# target to preprocess a source file
+src/Guard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Guard.cpp.i
+.PHONY : src/Guard.cpp.i
+
+src/Guard.s: src/Guard.cpp.s
+.PHONY : src/Guard.s
+
+# target to generate assembly for a file
+src/Guard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Guard.cpp.s
+.PHONY : src/Guard.cpp.s
+
 src/Player.obj: src/Player.cpp.obj
 .PHONY : src/Player.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
+	@echo ... src/Guard.obj
+	@echo ... src/Guard.i
+	@echo ... src/Guard.s
 	@echo ... src/Player.obj
 	@echo ... src/Player.i
 	@echo ... src/Player.s

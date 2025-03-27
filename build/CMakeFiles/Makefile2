@@ -84,12 +84,12 @@ clean: CMakeFiles/NeuroEscape.dir/clean
 CMakeFiles/NeuroEscape.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target NeuroEscape"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target NeuroEscape"
 .PHONY : CMakeFiles/NeuroEscape.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeuroEscape.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/NeuroEscape.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" 0
 .PHONY : CMakeFiles/NeuroEscape.dir/rule
@@ -101,7 +101,7 @@ NeuroEscape: CMakeFiles/NeuroEscape.dir/rule
 # codegen rule for target.
 CMakeFiles/NeuroEscape.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target NeuroEscape"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Personal Github Repo\Neuro-Escape\build\CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target NeuroEscape"
 .PHONY : CMakeFiles/NeuroEscape.dir/codegen
 
 # clean rule for target.
