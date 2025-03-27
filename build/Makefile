@@ -176,6 +176,30 @@ src/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
+src/Wall.obj: src/Wall.cpp.obj
+.PHONY : src/Wall.obj
+
+# target to build an object file
+src/Wall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj
+.PHONY : src/Wall.cpp.obj
+
+src/Wall.i: src/Wall.cpp.i
+.PHONY : src/Wall.i
+
+# target to preprocess a source file
+src/Wall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Wall.cpp.i
+.PHONY : src/Wall.cpp.i
+
+src/Wall.s: src/Wall.cpp.s
+.PHONY : src/Wall.s
+
+# target to generate assembly for a file
+src/Wall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NeuroEscape.dir\build.make CMakeFiles/NeuroEscape.dir/src/Wall.cpp.s
+.PHONY : src/Wall.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -215,6 +239,9 @@ help:
 	@echo ... src/Player.obj
 	@echo ... src/Player.i
 	@echo ... src/Player.s
+	@echo ... src/Wall.obj
+	@echo ... src/Wall.i
+	@echo ... src/Wall.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

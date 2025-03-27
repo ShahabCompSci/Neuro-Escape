@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj.d"
   "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj"
   "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj.d"
+  "CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj"
+  "CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj.d"
   "CMakeFiles/NeuroEscape.dir/src/main.cpp.obj"
   "CMakeFiles/NeuroEscape.dir/src/main.cpp.obj.d"
   "NeuroEscape.exe"

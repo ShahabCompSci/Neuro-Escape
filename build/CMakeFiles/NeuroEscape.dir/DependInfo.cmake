@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Personal Github Repo/Neuro-Escape/src/Game.cpp" "CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/NeuroEscape.dir/src/Game.cpp.obj.d"
   "C:/Personal Github Repo/Neuro-Escape/src/Player.cpp" "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj" "gcc" "CMakeFiles/NeuroEscape.dir/src/Player.cpp.obj.d"
+  "C:/Personal Github Repo/Neuro-Escape/src/Wall.cpp" "CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj" "gcc" "CMakeFiles/NeuroEscape.dir/src/Wall.cpp.obj.d"
   "C:/Personal Github Repo/Neuro-Escape/src/main.cpp" "CMakeFiles/NeuroEscape.dir/src/main.cpp.obj" "gcc" "CMakeFiles/NeuroEscape.dir/src/main.cpp.obj.d"
   )
 
